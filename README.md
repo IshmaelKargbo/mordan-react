@@ -1,6 +1,6 @@
 # Mordan React
 
-Mordan React in this project I demonstrate some of the most important tools that will make you design and build a profectional react project.
+Mordan React in this project I demonstrate some of the most important tools that will make you design and build a profectional react project using a simple todo idea.
 
 1. Redux
 
