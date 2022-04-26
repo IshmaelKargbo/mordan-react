@@ -16,7 +16,6 @@ Mordan React in this project I demonstrate some of the most important tools that
 
 - JavaScript
 
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
