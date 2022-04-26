@@ -1,7 +1,33 @@
-import "./NewTodo.css";
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { add } from "./todoSlice";
+import styled from "styled-components";
+
+const NContainer = styled.div`
+  background: #fff;
+  display: flex;
+`;
+
+const NAddBtn = styled.button`
+  background: transparent;
+  border: none;
+  color: rgb(52, 52, 255);
+  padding: 20px 15px;
+  font-size: 14px;
+  font-weight: 600;
+`;
+
+const NInput = styled.input`
+  flex: 1;
+  padding: 20px;
+  border: none;
+  font-size: 14px;
+  font-weight: 300;
+  color: rgb(56, 56, 56);
+  &:focus {
+    outline: none;
+  }
+`;
 
 const NewTodo = () => {
   const todos = useSelector((state) => state.todo.store);
@@ -36,8 +62,8 @@ const NewTodo = () => {
   };
 
   return (
-    <div className="new-todo-form">
-      <input
+    <NContainer>
+      <NInput
         className="new-todo-input"
         type="text"
         placeholder="Type your todo"
@@ -45,10 +71,10 @@ const NewTodo = () => {
         onKeyPress={onKeyPress}
         onChange={(e) => setTitle(e.target.value)}
       />
-      <button type="button" onClick={submit} className="new-todo-button">
+      <NAddBtn type="button" onClick={submit} className="new-todo-button">
         ADD
-      </button>
-    </div>
+      </NAddBtn>
+    </NContainer>
   );
 };
 
