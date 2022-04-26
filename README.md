@@ -5,7 +5,7 @@ Mordan React in this project I demonstrate some of the most important tools that
 1. Redux
 
 #### Desktop Screenshot
-<!-- <img src="./assets/images/app_screenshot.png" alt="modal react" /> -->
+<img src="./app_screenshot.png" alt="modal react" />
 
 ## Built With
 
