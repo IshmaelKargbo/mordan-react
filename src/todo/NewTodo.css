@@ -1,0 +1,28 @@
+.new-todo-form {
+  background: #fff;
+  display: flex;
+}
+
+.new-todo-input {
+  flex: 1;
+  padding: 20px;
+  border: none;
+  font-size: 16px;
+  color: rgb(56, 56, 56);
+}
+
+.new-todo-input:focus {
+  outline: none;
+}
+
+button {
+  background: transparent;
+  border: none;
+}
+
+.new-todo-button {
+  color: rgb(52, 52, 255);
+  padding: 20px 15px;
+  font-size: 15px;
+  font-weight: 600;
+}
