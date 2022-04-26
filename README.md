@@ -1,9 +1,11 @@
 # Mordan React
 
-Mordan React in this project I demonstrate some of the most important tools that will make you design and build a profectional react project using a simple todo idea.
+Mordan React in this project I demonstrate some of the most important tools that will make you design and build a protectional react project using a simple todo idea.
 
 1. Redux TollKit
 2. Redux Persist
+3. Redux Thunk
+4. Reselect
 
 #### App Screenshot
 <img src="./app_screenshot.png" alt="modal react" />
