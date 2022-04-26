@@ -2,12 +2,18 @@
   width: 25%;
 }
 
+.todo-list {
+  background: #fff;
+  margin-top: 20px;
+}
+
 .title {
   text-align: center;
   font-size: 30px;
 }
 
 .empty {
-    color: rgb(194, 194, 194);
-    text-align: center;
+  color: rgb(194, 194, 194);
+  text-align: center;
+  padding: 10px;
 }
