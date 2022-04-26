@@ -7,7 +7,7 @@ import { persistReducer } from "redux-persist";
 import todoReducer from "./todo/todoSlice";
 
 const reducers = combineReducers({
-  todo: todoReducer,
+  todo: todoReducer
 });
 
 const persistConfig = {

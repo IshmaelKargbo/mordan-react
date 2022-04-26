@@ -8,13 +8,14 @@ const NewTodo = () => {
   const [title, setTitle] = useState("");
   const dispatch = useDispatch();
 
-  const submit = () => {
+  const save = () => {
     if (!title) return;
 
     const todo = {
       id: `_${Math.random().toString(36).substring(2, 9)}`,
       isComplete: false,
       title: title,
+      date: new Date().toISOString(),
     };
 
     const isDuplicateText = todos.some((todo) => todo.title === title);
@@ -24,6 +25,16 @@ const NewTodo = () => {
     setTitle("");
   };
 
+  const submit = () => {
+    save();
+  };
+
+  const onKeyPress = (event) => {
+    if (event.key === "Enter") {
+      save();
+    }
+  };
+
   return (
     <div className="new-todo-form">
       <input
@@ -31,6 +42,7 @@ const NewTodo = () => {
         type="text"
         placeholder="Type your todo"
         value={title}
+        onKeyPress={onKeyPress}
         onChange={(e) => setTitle(e.target.value)}
       />
       <button type="button" onClick={submit} className="new-todo-button">

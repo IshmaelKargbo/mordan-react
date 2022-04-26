@@ -6,6 +6,7 @@ import TodoList from "./todo/TodoList";
 
 const App = () => {
   const ReduxTodo = fetchTodo(TodoList);
+  
   return (
     <div className="App">
       <ReduxTodo />

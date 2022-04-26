@@ -13,8 +13,10 @@
   "devDependencies": {
     "@babel/cli": "^7.17.6",
     "@babel/core": "^7.17.9",
+    "@babel/plugin-transform-runtime": "^7.17.0",
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-react": "^7.16.7",
+    "@babel/runtime": "^7.17.9",
     "babel-loader": "^8.2.5",
     "css-loader": "^6.7.1",
     "react-hot-loader": "^4.13.0",
