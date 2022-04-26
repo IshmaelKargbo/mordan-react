@@ -2,11 +2,8 @@ import React from "react";
 import TodoItem from "./TodoItem";
 import NewTodo from "./NewTodo";
 import "./TodoList.css";
-import { useSelector } from "react-redux";
 
-const TodoList = () => {
-  const todos = useSelector((state) => state.todo.store);
-
+const TodoList = ({ todos }) => {
   return (
     <div className="todo-list-container">
       <p className="title">TO-DO LIST</p>
