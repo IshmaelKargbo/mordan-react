@@ -2,7 +2,8 @@
 
 Mordan React in this project I demonstrate some of the most important tools that will make you design and build a profectional react project using a simple todo idea.
 
-1. Redux
+1. Redux TollKit
+2. Redux Persist
 
 #### App Screenshot
 <img src="./assets/images/app_screenshot.png" alt="modal react" />
