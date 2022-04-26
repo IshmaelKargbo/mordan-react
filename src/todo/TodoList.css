@@ -1,0 +1,13 @@
+.todo-list-container {
+  width: 25%;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+}
+
+.empty {
+    color: rgb(194, 194, 194);
+    text-align: center;
+}

@@ -1,0 +1,18 @@
+.todo-list {
+  background: #fff;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.todo-item-container {
+  display: flex;
+}
+
+.icon {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.todo-title {
+  margin-left: 5px;
+}
