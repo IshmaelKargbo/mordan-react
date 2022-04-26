@@ -4,6 +4,7 @@ Mordan React in this project I demonstrate some of the most important tools that
 
 1. Redux TollKit
 2. Redux Persist
+3. Redux Thunk
 
 #### App Screenshot
 <img src="./app_screenshot.png" alt="modal react" />
